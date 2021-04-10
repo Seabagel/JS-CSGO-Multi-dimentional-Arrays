@@ -1,0 +1,29 @@
+body {
+	user-select: none;
+	-moz-user-select: none;
+}
+
+h2, hr {
+	margin: 0;
+}
+
+ul {
+	width: 90%;
+}
+
+li {
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	border-bottom: 1px solid grey;
+	list-style: none;
+}
+
+li:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+h2 {
+	padding-top: 10px;
+}
+
